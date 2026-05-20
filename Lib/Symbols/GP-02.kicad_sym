@@ -2,33 +2,38 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "E220-900T22S"
+	(symbol "GP-02"
+		(pin_names
+			(offset 1.016)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U105"
-			(at 8.5725 5.08 0)
+		(property "Reference" "U"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Value" "E220-900T22S"
-			(at 8.5725 2.54 0)
+		(property "Value" "GP-02"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Footprint" "Project:WIRELM-SMD_E220-900T22S"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50,7 +55,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "- RF Receiver GLONASS, GNSS, GPS -162dBm 256kbps Not Included Module"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59,22 +64,96 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(symbol "E220-900T22S_1_1"
-			(rectangle
-				(start 0 0)
-				(end 15.24 -32.385)
-				(stroke
-					(width 0.4)
-					(type solid)
+		(property "MF" "Ai-Thinker"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type background)
-				)
+				(justify bottom)
 			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GP-02/AI-Thinker/view-part/?ref=snap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "GP-02"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/GP-02/AI-Thinker/view-part/?ref=eda"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "GP-02_0_0"
 			(pin power_in line
-				(at -2.54 -27.94 0)
+				(at -12.7 -10.16 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -91,67 +170,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -27.94 0)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -27.94 0)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -27.94 0)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at 17.78 -13.97 180)
+				(at -12.7 0 0)
 				(length 2.54)
-				(name "M0"
+				(name "ON/OFF"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -166,28 +188,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 -16.51 180)
+			(pin no_connect line
+				(at -12.7 5.08 0)
 				(length 2.54)
-				(name "M1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 17.78 -11.43 180)
-				(length 2.54)
-				(name "RXD"
+				(name "NC1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -202,28 +206,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 -8.89 180)
+			(pin input line
+				(at -12.7 10.16 0)
 				(length 2.54)
-				(name "TXD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 17.78 -27.94 180)
-				(length 2.54)
-				(name "AUX"
+				(name "NRST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -239,9 +225,9 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -5.08 0)
+				(at 12.7 10.16 180)
 				(length 2.54)
-				(name "VCC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -257,29 +243,9 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -27.94 0)
+				(at 12.7 5.08 180)
 				(length 2.54)
-				(hide yes)
 				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 17.78 -19.05 180)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -294,30 +260,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -27.94 0)
+			(pin power_out line
+				(at 12.7 0 180)
 				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 17.78 -22.86 180)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
+				(name "VCC_RF"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -332,10 +278,137 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 17.78 -24.13 180)
+		)
+		(symbol "GP-02_1_0"
+			(pin output line
+				(at -12.7 -7.62 0)
 				(length 2.54)
-				(hide yes)
+				(name "TXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "RXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "PPS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "VRTC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "RF_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "IO8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 -2.54 180)
+				(length 2.54)
 				(name "NC"
 					(effects
 						(font
@@ -351,10 +424,9 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 17.78 -25.4 180)
+			(pin bidirectional line
+				(at 12.7 -5.08 180)
 				(length 2.54)
-				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -370,10 +442,9 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 17.78 -20.32 180)
+			(pin bidirectional line
+				(at 12.7 -7.62 180)
 				(length 2.54)
-				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -389,10 +460,9 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 17.78 -21.59 180)
+			(pin input line
+				(at 12.7 -10.16 180)
 				(length 2.54)
-				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -408,79 +478,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -27.94 0)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+		)
+		(symbol "GP-02_1_1"
+			(rectangle
+				(start -10.16 12.7)
+				(end 10.16 -12.7)
+				(stroke
+					(width 0.4)
+					(type solid)
 				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -27.94 0)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 17.78 -5.08 180)
-				(length 2.54)
-				(name "ANT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -27.94 0)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(fill
+					(type background)
 				)
 			)
 		)
