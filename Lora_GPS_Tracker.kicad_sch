@@ -197,9 +197,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
+		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -207,25 +208,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at -2.54 16.51 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Value" "Conn_ARM_JTAG_SWD_10"
-				(at -2.54 13.97 0)
+			(property "Value" "Conn_01x05_Pin"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right bottom)
 				)
 			)
 			(property "Footprint" ""
@@ -239,18 +238,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
-				(at -8.89 -31.75 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -261,7 +249,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -272,7 +260,17 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "PinHeader?2x05?P1.27mm*"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -283,112 +281,137 @@
 					)
 				)
 			)
-			(symbol "Conn_ARM_JTAG_SWD_10_0_1"
-				(rectangle
-					(start -10.16 12.7)
-					(end 10.16 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -2.794 -12.7)
-					(end -2.286 -11.684)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 12.7)
-					(end 0.254 11.684)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 -12.7)
-					(end 0.254 -11.684)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 9.144 2.286)
-					(end 10.16 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 7.874)
-					(end 9.144 7.366)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -0.254)
-					(end 9.144 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -2.794)
-					(end 9.144 -2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "Conn_ARM_JTAG_SWD_10_1_1"
+			(symbol "Conn_01x05_Pin_1_1"
 				(rectangle
-					(start 9.144 -5.334)
-					(end 10.16 -4.826)
+					(start 0.8636 5.207)
+					(end 0 4.953)
 					(stroke
-						(width 0)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "VTref"
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -403,10 +426,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "SWDIO/TMS"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -421,10 +444,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -439,10 +462,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "SWCLK/TCK"
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -458,10 +481,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -469,97 +491,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "SWO/TDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "KEY"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "NC/TDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 90)
-					(length 2.54)
-					(name "GNDDetect"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1617,133 +1548,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Antenna"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "AE"
-				(at -1.905 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Antenna"
-				(at -1.905 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Antenna"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "antenna"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Antenna_0_1"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Antenna_1_1"
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3868,6 +3672,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TPS631000DRLR:TPS631000DRLR"
 			(pin_names
 				(offset 1.016)
@@ -5257,6 +5160,12 @@
 		(uuid "3464e50f-5997-4624-9aee-16c3c7a65ed3")
 	)
 	(junction
+		(at 186.69 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d689d3b-be6f-4b9f-9774-4e562d35bb81")
+	)
+	(junction
 		(at 148.59 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5275,16 +5184,10 @@
 		(uuid "5953cf56-fa2c-4027-932e-c06dfb4137b8")
 	)
 	(junction
-		(at 124.46 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6439aa15-ee29-4fe9-a2bb-f102ba123c27")
-	)
-	(junction
 		(at 269.24 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7998848c-180b-4f38-9add-91265f9225f8")
+		(uuid "614df0d2-9126-488d-8d00-352b3c51c172")
 	)
 	(junction
 		(at 204.47 33.02)
@@ -5335,12 +5238,6 @@
 		(uuid "9b22ae47-a082-4e15-b08a-c8375ac6c3f6")
 	)
 	(junction
-		(at 186.69 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e210dbe-1ada-4574-b123-5932f81f3fdc")
-	)
-	(junction
 		(at 252.73 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5353,6 +5250,12 @@
 		(uuid "bda30409-0905-4809-a99a-046f2950fb00")
 	)
 	(junction
+		(at 95.25 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4b6e559-f6f4-4c46-923f-6f6f465d01f1")
+	)
+	(junction
 		(at 110.49 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5363,6 +5266,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "daf19f3e-2ce4-4f3a-aee3-d4c3da4bf2cb")
+	)
+	(junction
+		(at 95.25 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f18e2047-d86e-408b-af1f-c7604d2fd316")
 	)
 	(junction
 		(at 173.99 93.98)
@@ -5403,10 +5312,6 @@
 	(no_connect
 		(at 232.41 111.76)
 		(uuid "50e37c27-f2f5-4dc1-b5b0-ebe29177bf33")
-	)
-	(no_connect
-		(at 139.7 86.36)
-		(uuid "521287c1-284a-462b-bc60-740e8e8d7e3c")
 	)
 	(no_connect
 		(at 50.8 121.92)
@@ -5488,10 +5393,6 @@
 		(at 50.8 124.46)
 		(uuid "fd642322-60e3-4ffd-a172-dbfc7d52a917")
 	)
-	(no_connect
-		(at 139.7 88.9)
-		(uuid "fdd8d893-0fe5-446d-b699-666bec390f0f")
-	)
 	(wire
 		(pts
 			(xy 110.49 163.83) (xy 116.84 163.83)
@@ -5514,6 +5415,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 63.5) (xy 140.97 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061d3ea1-fe61-4737-9a7b-9f9695777ee0")
+	)
+	(wire
+		(pts
 			(xy 180.34 107.95) (xy 173.99 107.95)
 		)
 		(stroke
@@ -5524,7 +5435,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 99.06) (xy 186.69 106.68)
+			(xy 186.69 99.06) (xy 186.69 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5564,7 +5475,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 34.29) (xy 111.76 34.29)
+			(xy 121.92 46.99) (xy 118.11 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5654,6 +5565,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 30.48) (xy 95.25 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b75050e-aff0-4f24-a3fe-c24d11245c79")
+	)
+	(wire
+		(pts
 			(xy 82.55 111.76) (xy 50.8 111.76)
 		)
 		(stroke
@@ -5704,13 +5625,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 99.06) (xy 124.46 96.52)
+			(xy 279.4 99.06) (xy 279.4 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "246ceaee-434c-4407-a0bd-e45fb2ea69df")
+		(uuid "2519af2d-3d31-46e9-ba5b-68b35874f2e8")
 	)
 	(wire
 		(pts
@@ -5761,6 +5682,26 @@
 			(type default)
 		)
 		(uuid "29e84a1a-1997-422d-9ea1-a8dbb1d949da")
+	)
+	(wire
+		(pts
+			(xy 137.16 60.96) (xy 143.51 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce513de-5825-4d99-a402-5415c6e54597")
+	)
+	(wire
+		(pts
+			(xy 95.25 29.21) (xy 95.25 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cfd4e1d-4865-4c54-afe1-a72620b3238a")
 	)
 	(wire
 		(pts
@@ -5834,7 +5775,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 36.83) (xy 111.76 36.83)
+			(xy 121.92 49.53) (xy 118.11 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5874,16 +5815,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 101.6) (xy 124.46 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40220e23-e062-42e2-80c3-b1920539b740")
-	)
-	(wire
-		(pts
 			(xy 116.84 176.53) (xy 120.65 176.53)
 		)
 		(stroke
@@ -5894,13 +5825,23 @@
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 124.46 101.6)
+			(xy 176.53 54.61) (xy 185.42 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a355e5f-7817-446f-803d-da434a70b579")
+		(uuid "499f41f0-12c6-48b8-b67c-0e5366e14bd4")
+	)
+	(wire
+		(pts
+			(xy 140.97 63.5) (xy 140.97 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4746e6-ef84-4893-b25d-19f793489183")
 	)
 	(wire
 		(pts
@@ -5911,6 +5852,16 @@
 			(type default)
 		)
 		(uuid "51e3f663-3393-485a-a6bc-cd911ae42587")
+	)
+	(wire
+		(pts
+			(xy 184.15 63.5) (xy 176.53 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522190d2-6cdd-46b3-b0b6-b5f1599f406c")
 	)
 	(wire
 		(pts
@@ -5944,6 +5895,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 20.32) (xy 95.25 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59269e47-629c-42f3-bac2-4f0a82961da0")
+	)
+	(wire
+		(pts
 			(xy 101.6 113.03) (xy 101.6 115.57)
 		)
 		(stroke
@@ -5974,16 +5935,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 81.28) (xy 146.05 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "613cd6c1-958f-4e91-9ef4-f81df4ee7fa2")
-	)
-	(wire
-		(pts
 			(xy 135.89 149.86) (xy 134.62 149.86)
 		)
 		(stroke
@@ -5991,16 +5942,6 @@
 			(type default)
 		)
 		(uuid "6293c068-0eaa-4d85-b21e-907873bab710")
-	)
-	(wire
-		(pts
-			(xy 139.7 76.2) (xy 146.05 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62e43607-781b-4f96-b8a6-4cd8cc81f989")
 	)
 	(wire
 		(pts
@@ -6114,7 +6055,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 40.64) (xy 115.57 36.83)
+			(xy 121.92 53.34) (xy 121.92 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6164,7 +6105,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 30.48) (xy 115.57 34.29)
+			(xy 121.92 43.18) (xy 121.92 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6221,6 +6162,16 @@
 			(type default)
 		)
 		(uuid "81b1c457-6ce0-473f-a1a4-bcb7550409ef")
+	)
+	(wire
+		(pts
+			(xy 101.6 20.32) (xy 95.25 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8295fb01-f10c-489b-a453-4e4df9993c32")
 	)
 	(wire
 		(pts
@@ -6304,6 +6255,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 66.04) (xy 176.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2ae4fc-16c7-4ff2-9b82-0c99cf343448")
+	)
+	(wire
+		(pts
 			(xy 157.48 129.54) (xy 157.48 132.08)
 		)
 		(stroke
@@ -6321,16 +6282,6 @@
 			(type default)
 		)
 		(uuid "8e066365-8de7-4256-a462-4e128def4686")
-	)
-	(wire
-		(pts
-			(xy 139.7 83.82) (xy 146.05 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e345f8f-6019-43fe-b6ad-481c763a784d")
 	)
 	(wire
 		(pts
@@ -6354,13 +6305,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 96.52) (xy 146.05 96.52)
+			(xy 137.16 55.88) (xy 143.51 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f70ff2b-293b-41da-a89c-ddd11f07c4bd")
+		(uuid "8f6a86ee-fd11-4829-9d30-fee11306f6e1")
 	)
 	(wire
 		(pts
@@ -6454,6 +6405,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 50.8) (xy 140.97 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c4c3c8-af9b-48da-bd88-efcf77edc3f3")
+	)
+	(wire
+		(pts
 			(xy 203.2 104.14) (xy 207.01 104.14)
 		)
 		(stroke
@@ -6504,7 +6465,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 114.3) (xy 186.69 118.11)
+			(xy 186.69 115.57) (xy 186.69 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6574,6 +6535,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 57.15) (xy 185.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d3897b-7d1b-44cf-9425-7886fd2562c9")
+	)
+	(wire
+		(pts
 			(xy 157.48 182.88) (xy 157.48 190.5)
 		)
 		(stroke
@@ -6581,6 +6552,16 @@
 			(type default)
 		)
 		(uuid "b8267616-13e6-4a62-83d3-46c807a4af8b")
+	)
+	(wire
+		(pts
+			(xy 95.25 30.48) (xy 95.25 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85805d6-aa56-437c-ad88-88a1454f2921")
 	)
 	(wire
 		(pts
@@ -6724,13 +6705,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 64.77) (xy 127 68.58)
+			(xy 137.16 58.42) (xy 143.51 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf01a800-29aa-4db8-8c2a-a3403318862d")
+		(uuid "cfb703ff-7288-43b3-98c6-64e742d1f99b")
 	)
 	(wire
 		(pts
@@ -6794,6 +6775,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 29.21) (xy 101.6 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ea33ea-856b-444e-b8a3-7d4e1b273591")
+	)
+	(wire
+		(pts
 			(xy 173.99 87.63) (xy 173.99 93.98)
 		)
 		(stroke
@@ -6804,13 +6795,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 99.06) (xy 127 101.6)
+			(xy 269.24 93.98) (xy 274.32 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9b2e231-fcf8-4688-959d-cd114fbd83d0")
+		(uuid "d9e69f61-d83e-4fdf-a837-4995b7aeedac")
 	)
 	(wire
 		(pts
@@ -6874,6 +6865,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 53.34) (xy 140.97 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5996321-5f15-4283-972c-b5b791261a43")
+	)
+	(wire
+		(pts
+			(xy 95.25 19.05) (xy 95.25 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76b88ce-9bf1-466e-beb1-056d7258b1bf")
+	)
+	(wire
+		(pts
 			(xy 116.84 163.83) (xy 120.65 163.83)
 		)
 		(stroke
@@ -6924,13 +6935,13 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 88.9) (xy 269.24 93.98)
+			(xy 101.6 21.59) (xy 101.6 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4227c4b-b74c-475a-ae27-9751cbc11bdf")
+		(uuid "f287c5a1-8a12-4bb2-a832-bf5c5cc87cda")
 	)
 	(wire
 		(pts
@@ -9456,24 +9467,14 @@
 		)
 	)
 	(label "SWDIO"
-		(at 146.05 83.82 180)
+		(at 143.51 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "099b3d6b-35e7-4c88-8ca6-ac69e252ebba")
-	)
-	(label "SWCLK"
-		(at 146.05 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "11933c0f-33c9-4364-ad7d-ebf098f0123b")
+		(uuid "101e6bf0-2a5a-4ee8-ab9c-12b4192307f6")
 	)
 	(label "GPS_TX"
 		(at 87.63 39.37 180)
@@ -9525,6 +9526,16 @@
 		)
 		(uuid "2d503414-7465-4bf3-9ad7-651003b11ec5")
 	)
+	(label "NRST"
+		(at 143.51 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d87c22e-7948-46e7-a2d7-3c566fc110c1")
+	)
 	(label "GPS_TX"
 		(at 199.39 106.68 0)
 		(effects
@@ -9544,6 +9555,16 @@
 			(justify left bottom)
 		)
 		(uuid "3ffde2ab-d24b-4478-a19e-e907d3b7007e")
+	)
+	(label "SWCLK"
+		(at 143.51 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4982e719-301f-4dbd-811e-55d53a9aa285")
 	)
 	(label "LORA_TX"
 		(at 35.56 62.23 0)
@@ -9575,6 +9596,16 @@
 		)
 		(uuid "6c2a7272-2d57-41ea-9a57-16418fd20e86")
 	)
+	(label "LORA_TX"
+		(at 185.42 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70ce79a3-2fc3-4242-a80a-17436ecae083")
+	)
 	(label "GPS_RX"
 		(at 87.63 41.91 180)
 		(effects
@@ -9584,6 +9615,26 @@
 			(justify right bottom)
 		)
 		(uuid "714caa0f-0cc3-42a3-8b9d-8ccac3ca8db1")
+	)
+	(label "GPS_RX"
+		(at 184.15 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7694dc5a-4936-4eff-b131-684d058b8ca7")
+	)
+	(label "GPS_TX"
+		(at 184.15 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77685de9-f612-476d-a245-cd1a527ea96b")
 	)
 	(label "SWDIO"
 		(at 87.63 62.23 180)
@@ -9606,7 +9657,7 @@
 		(uuid "9153b73c-5f57-47ed-bf54-2770a2482c03")
 	)
 	(label "M0"
-		(at 87.63 44.45 180)
+		(at 87.63 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9646,7 +9697,7 @@
 		(uuid "bd673813-9e04-492f-b17b-11b2b058983c")
 	)
 	(label "M1"
-		(at 87.63 46.99 180)
+		(at 87.63 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9675,15 +9726,15 @@
 		)
 		(uuid "ddb774df-eeda-46ce-81fd-873f4449c3e0")
 	)
-	(label "NRST"
-		(at 146.05 76.2 180)
+	(label "LORA_RX"
+		(at 185.42 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f9839ee1-3a25-4fa9-a423-158354345f46")
+		(uuid "f384e581-2fed-4fd4-984c-deded7821264")
 	)
 	(global_label "VBUS"
 		(shape input)
@@ -9744,7 +9795,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00061b63-3b19-4fd3-a59d-bd104d3ad493")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0110"
 			(at 101.6 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9804,7 +9855,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0109")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -9812,7 +9863,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 186.69 110.49 0)
+		(at 186.69 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9822,8 +9873,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00630fce-f6cd-4c8a-93ca-624d89ce25b2")
-		(property "Reference" "C109"
-			(at 186.182 107.95 0)
+		(property "Reference" "C110"
+			(at 186.182 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9834,7 +9885,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 186.436 112.522 0)
+			(at 186.436 113.792 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9844,8 +9895,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 185.7248 114.3 0)
+		(property "Footprint" "Projects:CAP-SMD_2P-L4.8-W4.8-TR"
+			(at 185.7248 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9856,7 +9907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 110.49 0)
+			(at 186.69 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9867,7 +9918,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 186.69 110.49 0)
+			(at 186.69 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9886,7 +9937,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "C109")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -9924,7 +9975,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 39.37 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10019,7 +10070,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 115.57 30.48 0)
+		(at 121.92 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10028,8 +10079,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03f69ddf-e299-47d3-823f-be7521d3e80c")
-		(property "Reference" "#PWR0113"
-			(at 115.57 34.29 0)
+		(property "Reference" "#PWR0115"
+			(at 121.92 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10040,7 +10091,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 115.57 26.67 0)
+			(at 121.92 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10050,7 +10101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 30.48 0)
+			(at 121.92 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10061,7 +10112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 30.48 0)
+			(at 121.92 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10072,7 +10123,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 115.57 30.48 0)
+			(at 121.92 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10088,7 +10139,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0113")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -10105,7 +10156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04a7fccc-f14d-4646-8b40-45d0ee1ecbb9")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0107"
 			(at 82.55 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10165,7 +10216,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0108")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -10173,7 +10224,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 96.52 0)
+		(at 140.97 66.04 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10182,9 +10233,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "09e3c98c-9500-4e18-8c45-e0c713395d89")
-		(property "Reference" "#PWR0119"
-			(at 146.05 102.87 0)
+		(uuid "0b45d1ec-4fa4-4282-a6f9-ad9e7646b1a3")
+		(property "Reference" "#PWR0121"
+			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10195,7 +10246,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 100.33 0)
+			(at 140.97 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10205,7 +10256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 96.52 0)
+			(at 140.97 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10216,7 +10267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 96.52 0)
+			(at 140.97 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10227,7 +10278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 96.52 0)
+			(at 140.97 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10238,12 +10289,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "68d5b667-de38-4e7a-b9ac-bc6b00fac4cf")
+			(uuid "8269433e-a3a7-4a9d-ac19-6428f61e9b1d")
 		)
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0119")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -10260,7 +10311,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bcdfd0b-8fc7-4889-9022-832912eb079a")
-		(property "Reference" "#FLG0101"
+		(property "Reference" "#FLG0103"
 			(at 190.5 97.155 0)
 			(hide yes)
 			(show_name no)
@@ -10320,7 +10371,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#FLG0101")
+					(reference "#FLG0103")
 					(unit 1)
 				)
 			)
@@ -10338,7 +10389,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12e27e40-4bdf-4be0-acb3-bb2b7c74b3b4")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0127"
 			(at 173.99 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10398,7 +10449,83 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0126")
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 111.76 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a4d29dd-06fd-44bb-8c11-8be74d5acb37")
+		(property "Reference" "H103"
+			(at 114.3 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 114.3 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 111.76 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 111.76 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Lora_GPS_Tracker"
+				(path "/b36038f1-d841-428f-b080-76d44913000f"
+					(reference "H103")
 					(unit 1)
 				)
 			)
@@ -10416,7 +10543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b6e8cb3-49a9-4a66-87bf-c1df2abbba0c")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0129"
 			(at 201.93 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10476,7 +10603,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0131")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -10586,7 +10713,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2085d381-be32-4199-b400-ee615d6226c9")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0131"
 			(at 204.47 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10646,7 +10773,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0128")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -10664,7 +10791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2578286f-4a23-4c9a-9198-e8de7364e98e")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0137"
 			(at 265.43 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10724,7 +10851,84 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0134")
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "25d0756d-339a-480e-92db-780251f3bc25")
+		(property "Reference" "#PWR0109"
+			(at 95.25 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a0f6a6f-5f0d-44b6-9c00-1802ed2f0b49")
+		)
+		(instances
+			(project "Lora_GPS_Tracker"
+				(path "/b36038f1-d841-428f-b080-76d44913000f"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -10806,6 +11010,166 @@
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
 					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 279.4 101.6 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2944102e-1f15-478d-86b7-040620293514")
+		(property "Reference" "#PWR0138"
+			(at 279.4 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af513ad9-8df4-444f-8509-40ea4d1c8170")
+		)
+		(instances
+			(project "Lora_GPS_Tracker"
+				(path "/b36038f1-d841-428f-b080-76d44913000f"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 25.4 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2974cca4-f07d-45c9-a172-52e2f03105e6")
+		(property "Reference" "C102"
+			(at 94.742 23.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 94.742 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 94.2848 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e99b9973-e594-4c43-af9a-16e64c27add2")
+		)
+		(pin "2"
+			(uuid "826f751c-7238-4cff-8f9c-72b224f7d9ca")
+		)
+		(instances
+			(project "Lora_GPS_Tracker"
+				(path "/b36038f1-d841-428f-b080-76d44913000f"
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -11063,7 +11427,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ce44b1c-b11f-4bd6-816e-9649ea760b4d")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0122"
 			(at 148.59 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11123,7 +11487,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0121")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -11223,7 +11587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d82afa0-8c7e-4160-bcf7-7c8b9b610eb1")
-		(property "Reference" "#FLG0102"
+		(property "Reference" "#FLG0101"
 			(at 64.135 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11284,7 +11648,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#FLG0102")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -11302,7 +11666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f64c4b1-8fc2-4a62-87a5-abd82e84077b")
-		(property "Reference" "C106"
+		(property "Reference" "C108"
 			(at 173.482 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11366,7 +11730,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "C106")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -11384,7 +11748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "324f2ca8-307f-46f6-b17f-82c0f3d8d3d0")
-		(property "Reference" "J104"
+		(property "Reference" "J106"
 			(at 269.24 32.0431 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11406,7 +11770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 265.43 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11448,7 +11812,172 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "J104")
+					(reference "J106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 132.08 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36c64853-3637-4dff-a2ed-08e2254b4d48")
+		(property "Reference" "J103"
+			(at 134.874 50.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Pin"
+			(at 129.54 57.912 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 132.08 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 132.08 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "fb45d931-9baf-4b97-a087-12d5ed029993")
+		)
+		(pin "2"
+			(uuid "32753197-ac59-43e0-9be2-f2c07b9ab59f")
+		)
+		(pin "3"
+			(uuid "6c5eb4a5-4ec9-4b64-ae1c-3de9a8df3b39")
+		)
+		(pin "1"
+			(uuid "7fbc203a-8ab2-48cf-a33f-be7a720f82f4")
+		)
+		(pin "5"
+			(uuid "ccad1e2a-bcd2-4be9-b6f6-6343a089f72c")
+		)
+		(instances
+			(project "Lora_GPS_Tracker"
+				(path "/b36038f1-d841-428f-b080-76d44913000f"
+					(reference "J103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 95.25 19.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37bb17ba-ce57-4dad-b0b7-641f5da06705")
+		(property "Reference" "#PWR0108"
+			(at 95.25 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 95.25 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 95.25 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84529836-1be7-461e-9dc5-d07e70c964ec")
+		)
+		(instances
+			(project "Lora_GPS_Tracker"
+				(path "/b36038f1-d841-428f-b080-76d44913000f"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -11466,7 +11995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a97214a-f414-424c-8095-2579442d825d")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0119"
 			(at 139.7 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -11526,7 +12055,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0118")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -11543,7 +12072,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d379fd2-80aa-47ba-8d96-f75f929b6077")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0106"
 			(at 77.47 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11603,7 +12132,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0107")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -11620,7 +12149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "404e731d-04d0-4ee2-bfd6-d7321c1b0657")
-		(property "Reference" "U104"
+		(property "Reference" "U103"
 			(at 136.652 156.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11640,7 +12169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS631000DRLR:SOT50P160X60-8N"
+		(property "Footprint" "Projects:TPS631000DRLR"
 			(at 130.81 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -11846,7 +12375,89 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "U104")
+					(reference "U103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 279.4 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4278987c-5169-4cf5-a7ab-3ad6f6185bbf")
+		(property "Reference" "J107"
+			(at 283.21 93.0031 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 283.21 95.5431 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Projects:ANT-SMD_KH-IPEX-K501-29"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 279.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93a37671-3083-4c75-aa32-e44a89bd98cf")
+		)
+		(pin "2"
+			(uuid "87867af0-596b-4947-ad81-c6439ea6912f")
+		)
+		(instances
+			(project "Lora_GPS_Tracker"
+				(path "/b36038f1-d841-428f-b080-76d44913000f"
+					(reference "J107")
 					(unit 1)
 				)
 			)
@@ -11864,7 +12475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4331fd01-a630-457e-b538-7c3ddf45a663")
-		(property "Reference" "R109"
+		(property "Reference" "R107"
 			(at 241.3 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11928,7 +12539,84 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "R109")
+					(reference "R107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 140.97 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4392319d-0e6a-4c18-8580-470508640bd2")
+		(property "Reference" "#PWR0120"
+			(at 140.97 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 140.97 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 140.97 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e8056c7-f56a-4d52-9611-ed53c130229c")
+		)
+		(instances
+			(project "Lora_GPS_Tracker"
+				(path "/b36038f1-d841-428f-b080-76d44913000f"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -11945,7 +12633,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44b730c4-325c-4fff-8645-97e0e5f691bb")
-		(property "Reference" "R108"
+		(property "Reference" "R109"
 			(at 257.556 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12009,7 +12697,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "R108")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -12026,7 +12714,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45c71cdc-dd39-4594-898a-5dbf2f6379d7")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0114"
 			(at 116.84 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -12086,113 +12774,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
-		(at 127 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48ec5b3f-e306-49b8-9753-d5949cde1589")
-		(property "Reference" "J103"
-			(at 115.57 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_ARM_JTAG_SWD_10"
-			(at 115.57 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
-			(at 118.11 115.57 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
-			(at 127 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "b4a92596-8414-441d-97bd-9010b2a0187e")
-		)
-		(pin "5"
-			(uuid "f82e11ab-9c0f-4bdd-9f32-735efc2bd115")
-		)
-		(pin "8"
-			(uuid "4815e2cb-0c02-4888-8524-ad6382a56683")
-		)
-		(pin "7"
-			(uuid "78fa7d50-6685-472b-958a-bc20cf49c98e")
-		)
-		(pin "4"
-			(uuid "0a337fdf-2b76-4fe8-99f5-9fd622538b64")
-		)
-		(pin "9"
-			(uuid "36ed30b5-61ea-4656-ab1b-d47ac6cd62cd")
-		)
-		(pin "10"
-			(uuid "09941bf7-3258-4992-870c-8ad4ece3f713")
-		)
-		(pin "6"
-			(uuid "04420665-2416-4711-8212-6823da659e99")
-		)
-		(pin "2"
-			(uuid "70285c6b-db3f-4312-ac15-55f78ef8c243")
-		)
-		(pin "1"
-			(uuid "09051ae1-640a-418e-8f43-ed1fa456dbfd")
-		)
-		(instances
-			(project "Lora_GPS_Tracker"
-				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "J103")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -12200,7 +12782,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 40.64 0)
+		(at 121.92 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12209,8 +12791,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d766538-1b75-4e4b-982e-853e2ecac3c1")
-		(property "Reference" "#PWR0114"
-			(at 115.57 46.99 0)
+		(property "Reference" "#PWR0116"
+			(at 121.92 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12221,7 +12803,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 44.45 0)
+			(at 121.92 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12231,7 +12813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 40.64 0)
+			(at 121.92 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12242,7 +12824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 40.64 0)
+			(at 121.92 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12253,7 +12835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 40.64 0)
+			(at 121.92 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12269,7 +12851,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0114")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -12286,7 +12868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4dea10e6-7879-4548-a60d-27416080171a")
-		(property "Reference" "U106"
+		(property "Reference" "U104"
 			(at 219.71 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12306,7 +12888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Projects:GP-02_FULL_PAD"
 			(at 219.71 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12481,7 +13063,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "U106")
+					(reference "U104")
 					(unit 1)
 				)
 			)
@@ -12499,7 +13081,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e403169-fdd5-4ad0-bf4d-223e53c3e88d")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0135"
 			(at 252.73 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12559,7 +13141,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0132")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -12577,7 +13159,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e8bc170-53b3-48b0-a8e0-45921f49a6e9")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0134"
 			(at 248.92 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12637,7 +13219,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0135")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -12813,7 +13395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53d6271d-169e-419b-b735-7b44db84b34e")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0124"
 			(at 157.48 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -12873,7 +13455,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0123")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -12972,7 +13554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62e70cf8-ca8f-45ab-857a-effb0f80ef27")
-		(property "Reference" "C105"
+		(property "Reference" "C107"
 			(at 161.29 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13036,7 +13618,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "C105")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -13053,7 +13635,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ecf30bd-e954-47dc-854c-504233f7fa40")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0117"
 			(at 125.73 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -13113,7 +13695,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0116")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -13130,7 +13712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76f35e40-6cb5-4370-b065-8924fe328668")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0113"
 			(at 110.49 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -13190,7 +13772,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0111")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -13208,7 +13790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a80031a-dfca-49e8-b736-4e25f5d1c6aa")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0128"
 			(at 186.69 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -13268,7 +13850,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0129")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -13387,7 +13969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:WIRELM-SMD_E220-900T22S"
+		(property "Footprint" "Projects:WIRELM-SMD_E220-900T22S"
 			(at 224.79 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -13506,7 +14088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ccd26a0-f18e-46a2-9f8d-26b943def84e")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0125"
 			(at 157.48 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -13566,7 +14148,164 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0124")
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "820ccd4c-b486-4a13-b966-0b57424d4321")
+		(property "Reference" "C103"
+			(at 102.108 23.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 102.108 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 102.5652 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9b65ac3-7a81-429c-a6b4-00d4b7d4e11b")
+		)
+		(pin "2"
+			(uuid "1f7f6d34-5fd9-4e6a-8e75-3698305734d1")
+		)
+		(instances
+			(project "Lora_GPS_Tracker"
+				(path "/b36038f1-d841-428f-b080-76d44913000f"
+					(reference "C103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 111.76 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84d0ae13-ec94-413a-85e8-4c639bbe8b36")
+		(property "Reference" "H101"
+			(at 114.3 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 114.3 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 111.76 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 111.76 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Lora_GPS_Tracker"
+				(path "/b36038f1-d841-428f-b080-76d44913000f"
+					(reference "H101")
 					(unit 1)
 				)
 			)
@@ -13739,7 +14478,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88ed3c8a-19ca-4954-9981-022a2f6a3baf")
-		(property "Reference" "R107"
+		(property "Reference" "R108"
 			(at 251.714 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13803,7 +14542,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "R107")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -13820,7 +14559,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89ed478e-4fb3-48ba-ab19-efe4bd589de1")
-		(property "Reference" "C107"
+		(property "Reference" "C109"
 			(at 180.848 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13884,7 +14623,83 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "C107")
+					(reference "C109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 111.76 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f3f5192-b377-4866-98e8-5fa5e897215f")
+		(property "Reference" "H102"
+			(at 114.3 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 114.3 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Lora_GPS_Tracker"
+				(path "/b36038f1-d841-428f-b080-76d44913000f"
+					(reference "H102")
 					(unit 1)
 				)
 			)
@@ -13901,7 +14716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92140f7b-6dd8-447c-a212-36169223cb0d")
-		(property "Reference" "U103"
+		(property "Reference" "U102"
 			(at 118.11 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13976,7 +14791,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "U103")
+					(reference "U102")
 					(unit 1)
 				)
 			)
@@ -14153,7 +14968,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b6c7948-4a94-4875-a65e-8cf20da77c4f")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0130"
 			(at 204.47 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -14213,7 +15028,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0127")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -14297,87 +15112,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna")
-		(at 269.24 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f6c4f74-85e9-4db8-8f1a-42c2a88a1c9e")
-		(property "Reference" "AE101"
-			(at 271.78 83.1849 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Antenna"
-			(at 271.78 85.7249 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Antenna"
-			(at 269.24 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11ec2c5a-d0a6-4b71-8ca1-54562aaa1038")
-		)
-		(instances
-			(project "Lora_GPS_Tracker"
-				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "AE101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 106.68 34.29 0)
+		(at 113.03 46.99 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14388,7 +15124,7 @@
 		(dnp no)
 		(uuid "a50d1762-60b8-44e9-ba48-c953a7e48e1e")
 		(property "Reference" "J102"
-			(at 104.14 34.2899 0)
+			(at 110.49 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14399,7 +15135,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 104.14 36.8299 0)
+			(at 110.49 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14409,8 +15145,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 106.68 34.29 0)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 113.03 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14421,7 +15157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 34.29 0)
+			(at 113.03 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14432,7 +15168,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 106.68 34.29 0)
+			(at 113.03 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14469,7 +15205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a749ae0d-e7ee-49bf-9ceb-eae1ae140078")
-		(property "Reference" "C103"
+		(property "Reference" "C105"
 			(at 106.68 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14533,7 +15269,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "C103")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -14550,7 +15286,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a818b3f0-675e-4142-b627-d84ccc0b7115")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0123"
 			(at 148.59 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14610,7 +15346,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0122")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -14628,7 +15364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a84c0d7c-e30b-429b-8191-13c29668900e")
-		(property "Reference" "#FLG0103"
+		(property "Reference" "#FLG0102"
 			(at 103.505 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -14689,7 +15425,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#FLG0103")
+					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
@@ -14706,7 +15442,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7c90e66-25eb-4642-9726-026c24a63151")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0118"
 			(at 130.81 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14766,7 +15502,89 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0117")
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 171.45 54.61 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbe9d716-d8aa-4ecd-aca7-bf3bfe8a33df")
+		(property "Reference" "J104"
+			(at 168.91 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 168.91 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 171.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 171.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9c76a9c7-8a4c-42f4-90a5-4e2853e76662")
+		)
+		(pin "1"
+			(uuid "3d1afa67-741a-44a5-a07e-6c0d90979b41")
+		)
+		(instances
+			(project "Lora_GPS_Tracker"
+				(path "/b36038f1-d841-428f-b080-76d44913000f"
+					(reference "J104")
 					(unit 1)
 				)
 			)
@@ -14931,6 +15749,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 171.45 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4140c26-b973-4fb9-b43f-01433b072b9a")
+		(property "Reference" "J105"
+			(at 168.91 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 168.91 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 171.45 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 171.45 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "22dc8139-8d62-428d-8531-5950469e125c")
+		)
+		(pin "1"
+			(uuid "c079ec1b-6a13-4e76-a043-f99829fa4f09")
+		)
+		(instances
+			(project "Lora_GPS_Tracker"
+				(path "/b36038f1-d841-428f-b080-76d44913000f"
+					(reference "J105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 101.6 135.89 0)
 		(mirror y)
@@ -14942,7 +15842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8a61329-2e40-4847-b318-65975d2e60ee")
-		(property "Reference" "C102"
+		(property "Reference" "C104"
 			(at 97.79 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15006,7 +15906,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "C102")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -15023,7 +15923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8e69afa-f293-4152-a8fd-cbfdd7c5e106")
-		(property "Reference" "C110"
+		(property "Reference" "C113"
 			(at 211.328 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15087,7 +15987,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "C110")
+					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -15186,7 +16086,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf315da6-3aae-42a7-8d80-4fbe85eafe40")
-		(property "Reference" "C108"
+		(property "Reference" "C112"
 			(at 203.962 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15250,7 +16150,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "C108")
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -15267,7 +16167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d17427e2-acfe-4306-922d-2b283e509cb2")
-		(property "Reference" "C113"
+		(property "Reference" "C115"
 			(at 264.668 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15331,7 +16231,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "C113")
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -15348,7 +16248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc43251c-2d6f-496f-aaaf-d97360a7abe2")
-		(property "Reference" "C104"
+		(property "Reference" "C106"
 			(at 143.51 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15412,7 +16312,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "C104")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -15430,7 +16330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcf99f18-4a82-4f2c-ae7e-91caa7c747ab")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0132"
 			(at 218.44 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -15490,7 +16390,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0130")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -15507,7 +16407,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddd17d69-24ce-4e90-b35c-115a0bb2cb26")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0126"
 			(at 173.99 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -15567,7 +16467,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0125")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -15584,7 +16484,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e077eb19-b7f2-49cb-888c-134d10027199")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0111"
 			(at 105.41 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -15644,7 +16544,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0110")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -15722,83 +16622,6 @@
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
 					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 127 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ef83f9f0-dbed-4ce8-a75a-fcd9a72dd78b")
-		(property "Reference" "#PWR0120"
-			(at 127 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 127 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 127 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0414a007-0cac-4881-97af-9d63e611e835")
-		)
-		(instances
-			(project "Lora_GPS_Tracker"
-				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -15972,7 +16795,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8e2d70f-aceb-4663-8f63-43c0a9792d90")
-		(property "Reference" "C112"
+		(property "Reference" "C114"
 			(at 258.826 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16036,7 +16859,7 @@
 		(instances
 			(project "Lora_GPS_Tracker"
 				(path "/b36038f1-d841-428f-b080-76d44913000f"
-					(reference "C112")
+					(reference "C114")
 					(unit 1)
 				)
 			)
